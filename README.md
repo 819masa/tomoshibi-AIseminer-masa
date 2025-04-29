@@ -1,37 +1,6 @@
 # tomoshibi-AIseminer-masa
 
-### 想定されるディレクトリ構成
 
-今後の演習を進めるにあたり、GitHubリポジトリ内を以下のような構成で管理することを推奨します。今回の演習1でこの基本形を作成します。
-
-```plaintext
-your-repository-name/  <-- あなたのリポジトリのルートディレクトリ
-│
-├── .gitignore         <-- (任意) Pythonプロジェクト用の .gitignore ファイル
-│
-├── README.md          <--  **ルートREADME:** リポジトリ全体の説明と各週へのリンクを記載
-│
-├── week1/             <--  **第1週**の成果物を入れるディレクトリ
-│   │
-│   ├── README.md      <--   **week1のREADME:** この週の Colab Notebook へのリンクを記載
-│   │
-│   └── hello_world.ipynb <--  Week 1 で作成した Notebook ファイル
-│   └── (fizzbuzz_step1.ipynb など、他の演習ファイル)
-│
-├── week2/             <--  **第2週**の成果物を入れるディレクトリ
-│   │
-│   ├── README.md      <--   **week2のREADME:** Colabリンク記載
-│   │
-│   └── ... (Week 2 のファイル)
-│
-├── ... (同様に week3 から week11 まで続く) ...
-│
-└── week12/            <--  **第12週**（最終週）の成果物を入れるディレクトリ
-    │
-    ├── README.md      <--   **week12のREADME:** Colabリンク記載
-    │
-    └── final_project.ipynb <-- 最終プロジェクトの Notebook など
-    └── ...
 
 ```
 **ルートREADME.mdの内容（テンプレート）**  
