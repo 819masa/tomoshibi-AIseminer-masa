@@ -1,26 +1,2 @@
-# Dogクラスの定義(favorite属性とlikeメソッドを追加してください)
-class Dog:
-    def __init__(self, name, age,favorite):
-        self.name = name
-        self.age = age
-        self.favorite = favorite
-
-    def bark(self):
-        print(f"{self.name}がワン！と吠えます。")
-
-    def like(self):
-      print(f"{self.name}の好物は{self.favorite}です")
-
-
-
-# Dogクラスのインスタンスを作成 (適切な初期化を行ってください)
-pochi =Dog("Pochi",3,"apple")
-shiro =Dog("Shiro",5,"banana")
-
-# インスタンスのメソッドを呼び出す
-pochi.bark()  # 出力: ポチがワン！と吠えます。
-shiro.bark()  # 出力: シロがワン！と吠えます。
-
-# 以下で実装したlikeメソッドを呼び出してください
-pochi.like()
-shiro.like()
+演習問題1：クラスに属性とメソッドを追加しよう！
+https://colab.research.google.com/drive/1HN1Onw7W8dLeF3BWBKtDGWCVPFpLhKBE?usp=sharing
